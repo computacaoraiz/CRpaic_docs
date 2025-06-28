@@ -1,9 +1,8 @@
-Template for the Read the Docs tutorial
-=======================================
+Docs for CRpaic: a library for *"Programming Abstractions in C"*
+================================================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This repository is the source of the *Read the Docs* documentation for the
+[**CRpaic Library**](https://github.com/computacaoraiz/CRpaic).
 
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+The docs can be accessed on
+[https://crpaic.readthedocs.io](https://crpaic.readthedocs.io).
