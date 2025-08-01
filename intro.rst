@@ -1,12 +1,3 @@
-************
-Introduction
-************
-
-.. note::
-
-   This project is under active development. The docs are not finished yet.
-   Please, be patient.
-
 A biblioteca **CRpaic** é uma biblioteca C voltada para estudantes de computação
 e programadores iniciantes que queiram utilizar a linguagem C como meio de
 aprendizagem de conceitos fundamentais da ciência da computação e da
@@ -26,21 +17,3 @@ sintaxe e semântica de C.
     exibindo de maneira simples um prompt:
 
     :code:`string nome = crpaic_get_string("Informe seu nome: ");`
-
-============
-About CRpaic
-============
-
-xxx
-
-============
-Installation
-============
-
-xxx
-
-==================
-Development status
-==================
-
-xxx
