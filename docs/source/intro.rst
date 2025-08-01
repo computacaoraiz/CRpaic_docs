@@ -1,10 +1,10 @@
-***************
-1. Introduction
-***************
+************
+Introduction
+************
 
 .. note::
 
-   This project is under active development. The docs were not released yet.
+   This project is under active development. The docs are not finished yet.
    Please, be patient.
 
 The :code:`CRpaic` library is a C library specifically designed for studying the
@@ -13,3 +13,21 @@ book "Programming Abstractions in C: A Second Course in Computer Science"
 be, even today, one of the best books for beginner students to learn important
 concepts in algorithms and data structures, using the C language as the
 implementation tool. Here is an image of the book cover:
+
+============
+About CRpaic
+============
+
+xxx
+
+============
+Installation
+============
+
+xxx
+
+==================
+Development status
+==================
+
+xxx
