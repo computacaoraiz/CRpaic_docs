@@ -1,3 +1,5 @@
+.. highlight:: c
+
 ************
 Introduction
 ************
@@ -24,6 +26,8 @@ sintaxe e semântica de C.
     isso fornecendo uma abstração para tipo de dado "string" e uma função onde o
     aluno pode obter uma string do usuário, a partir da linha de comando,
     exibindo de maneira simples um prompt:
+
+    .. type:: string
 
     :code:`string nome = crpaic_get_string("Informe seu nome: ");`
 
