@@ -29,9 +29,6 @@ sintaxe e semântica de C.
 
     :code:`string nome = crpaic_get_string("Informe seu nome: ");`
 
-.. type:: string
-
-    
 
 ============
 About CRpaic
