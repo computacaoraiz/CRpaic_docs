@@ -27,9 +27,11 @@ sintaxe e semântica de C.
     aluno pode obter uma string do usuário, a partir da linha de comando,
     exibindo de maneira simples um prompt:
 
-    .. type:: string
-
     :code:`string nome = crpaic_get_string("Informe seu nome: ");`
+
+.. type:: string
+
+    
 
 ============
 About CRpaic
