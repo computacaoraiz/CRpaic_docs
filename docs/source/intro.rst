@@ -26,9 +26,18 @@ entre usar arrays de caracteres diretamente (:code:`char nome[20];`) ou usar um
 ponteiro para um caractere (:code:`char *nome;`). CRpaic resolve isso fornecendo
 uma abstração para strings, o tipo de dado :code:`string`, e uma função para
 solicitar uma string ao usuário após um prompt amigável, a função
-:code:`crpaic_get_string()`:
+:code:`crpaic_get_string()`. Isso permite que alunos absolutamente iniciantes
+consigam criar programas como o seguinte::
 
-:code:`string nome = crpaic_get_string("Informe seu nome: ");`
+    #include <CRpaic>
+    #include <stdio.h>
+
+    int main (void)
+    {
+        string nome = crpaic_get_string("Informe seu nome: ");
+        printf("Olá, %s!\n", nome);
+    }
+
 
 ============
 About CRpaic
