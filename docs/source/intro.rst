@@ -1,6 +1,6 @@
-************
-Introduction
-************
+**********
+Introdução
+**********
 
 .. note::
 
@@ -8,6 +8,12 @@ Introduction
    Please, be patient.
 
 .. highlight:: c
+
+.. hint::
+   Se você é um estudante ou programador que pretende *usar* a CRpaic, você pode
+   ignorar este capítulo com segurança. Ao contrário, se você é um professor que
+   pretende começar a usar a CRpaic em suas aulas, este capítulo contém
+   informação importante e deve ser lido.
 
 A biblioteca **CRpaic** é uma biblioteca C voltada para estudantes de computação
 e programadores iniciantes que queiram utilizar a linguagem C como meio de
@@ -26,10 +32,10 @@ entre usar arrays de caracteres diretamente (:code:`char nome[20];`) ou usar um
 ponteiro para um caractere (:code:`char *nome;`). CRpaic resolve isso fornecendo
 uma abstração para strings, o tipo de dado :code:`string`, e uma função para
 solicitar uma string ao usuário após um prompt amigável, a função
-:code:`crpaic_get_string()`. Isso permite que alunos absolutamente iniciantes
+:code:`crpaic_get_string`. Isso permite que alunos absolutamente iniciantes
 consigam criar programas como o seguinte::
 
-    #include <CRpaic>
+    #include <CRpaic.h>
     #include <stdio.h>
 
     int main (void)
@@ -40,7 +46,7 @@ consigam criar programas como o seguinte::
 
 A variável :code:`nome` no código acima é do tipo :code:`string`, mas esse tipo
 é, na verdade, um alias para um ponteiro para um caractere. A função
-:code:`crpaic_get_string()` exibe um prompt para o usuário, obtém a string
+:code:`crpaic_get_string` exibe um prompt para o usuário, obtém a string
 informada na linha de comando, aloca memória na *heap*, coloca a string nessa
 área de memória e retorna o ponteiro de acesso à string. Ao final do programa
 essa área de memória é liberada e desalocada automaticamente pela biblioteca,
@@ -52,6 +58,12 @@ tipo de dado subjacente (:code:`char *`), as funções de I/O (:code:`fgetc`,
 :code:`scanf`, :code:`getc`, etc.), as funções de gerenciamento de memória
 (:code:`malloc`, :code:`free`, etc.) e funcionalidades mais avançadas da
 linguagem.
+
+Com a CRpaic é possível ensinar conceitos de computação e programação usando a
+linguagem C para estudantes realmente iniciantes (estudantes no 1º período da
+graduação, por exemplo), já que a biblioteca esconde muito da complexidade de C
+até que os estudantes estejam melhor equipados para compreender como tudo
+funciona realmente.
 
 ============
 About CRpaic
