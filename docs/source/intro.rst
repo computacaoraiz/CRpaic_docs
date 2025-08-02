@@ -10,6 +10,7 @@ Introdução
 .. highlight:: c
 
 .. hint::
+   
    Se você é um estudante ou programador que pretende *usar* a CRpaic, você pode
    ignorar este capítulo com segurança. Ao contrário, se você é um professor que
    pretende começar a usar a CRpaic em suas aulas, este capítulo contém
