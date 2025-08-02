@@ -11,10 +11,14 @@ Introdução
 
 .. hint::
    
-   Se você é um estudante ou programador que pretende *usar* a CRpaic, você pode
-   ignorar este capítulo com segurança. Ao contrário, se você é um professor que
-   pretende começar a usar a CRpaic em suas aulas, este capítulo contém
-   informação importante e deve ser lido.
+   * Para **estudantes**: se você é um estudante ou é um programador que
+     pretende apenas *usar* a CRpaic, você pode ignorar este capítulo com
+     segurança, pois as informações aqui são mais úteis para professores.
+   * Para **professores**: se você é um professor, este capítulo contém
+     informações importantes sobre a biblioteca e deve ser lido, pois discute o
+     que é a biblioteca, a motivação para sua criação, questões de instalação e
+     desinstalação, compilação, plataformas e outras informações técnicas
+     importantes.
 
 A biblioteca **CRpaic** é uma biblioteca C voltada para estudantes de computação
 e programadores iniciantes que queiram utilizar a linguagem C como meio de
@@ -48,14 +52,12 @@ consigam criar programas como o :file:`ola.c`, abaixo::
 A compilação é feita com GCC ou Clang, fazendo a vinculação com a CRpaic:
 
 .. code-block:: bash
-   :emphasize-lines: 1
 
    $ gcc -std=c17 -Wall -Wpedantic -Werror -o ola ola.c -lCRpaic
   
 Ao ser executado na linha de comando, o programa resulta em:
 
 .. code-block:: bash
-   :emphasize-lines: 1
 
    $ ./ola
    Informe seu nome: Abrantes
