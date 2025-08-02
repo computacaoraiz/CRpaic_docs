@@ -84,11 +84,41 @@ graduação, por exemplo), já que a biblioteca esconde muito da complexidade de
 até que os estudantes estejam melhor equipados para compreender como tudo
 funciona realmente.
 
-============
-About CRpaic
-============
+==========
+Por que C?
+==========
 
-xxx
+Com tantas linguagens mais modernas e amigáveis para os estudantes, como Python,
+Java e outras, por que utilizar C para estudantes iniciantes?
+
+Essas é uma discussão que já foi travada incontáveis vezes por todos os
+professores de computação e/ou programação, com argumentos favoráveis e
+desfavoráveis de todos os tipos. Minha experiência como professor de diversas
+disciplinas de computação (introdução à ciência da computação, linguagens de
+programação, sistemas operacionais, arquitetura de computadores) me fez optar
+por C pelas seguintes razões:
+
+* É uma linguagem pequena e simples de aprender: como C tem poucas *keywords* e
+  poucos operadores, em pouco tempo o estudante iniciante consegue utilizar a
+  maioria dos construtos da linguagem.
+* É uma linguagem compilada, o que força os estudantes a enxergar claramente a
+  diferença entre o código fonte e o código executável. O entendimento do
+  processo de compilação é, por si só, um benefício considerável.
+* É uma linguagem de alto nível que não esconde detalhes voltados ao hardware,
+  como ponteiros e alocação de memória. Estudantes que conhecem esses detalhes
+  estão mais preparados para disciplinas como arquitetura de computadores ou
+  sistemas operacionais. Esse fato é corroborado por minha própria experiência
+  pessoal: com muita freqüência recebo alunos com background em C ou com
+  background em Python na disciplina de Arquitetura de Computadores e,
+  invariavelmente, os alunos com background em C entendem e se saem melhor do
+  que os alunos com background em Python.
+* A necessidade de preparar os estudantes para disciplinas mais práticas nas
+  quais os mesmos constroem dispositivos com microcontroladores stand-alone ou
+  usando placas como o Arduino ou ESP32. A programação de microcontroladores é
+  feita, em geral, com C ou C++ e, portanto, alunos que aprendem desde cedo a
+  programar em C têm um forte background para essas disciplinas.
+* Eu gosto.
+
 
 ============
 Installation
