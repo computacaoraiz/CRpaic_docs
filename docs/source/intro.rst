@@ -45,7 +45,7 @@ consigam criar programas como o :file:`ola.c`, abaixo::
         printf("Olá, %s!\n", nome);
     }
 
-A compilação é feita com GCC ou Clang, fazendo a vinculação com a CRpaic::
+A compilação é feita com GCC ou Clang, fazendo a vinculação com a CRpaic:
 
 .. code-block:: bash
    :emphasize-lines: 1
