@@ -49,9 +49,12 @@ A compilação é feita com GCC ou Clang, fazendo a vinculação com a CRpaic::
 
   $ gcc -std=c17 -Wall -Wpedantic -Werror -o ola ola.c -lCRpaic
   
-Ao ser executado na linha de comando, o programa resulta em::
+Ao ser executado na linha de comando, o programa resulta em:
 
-  $ :command:./ola
+.. code-block:: bash
+   :emphasize-lines: 1
+                     
+  $ ./ola
   Informe seu nome: Abrantes
   Olá, Abrantes!
 
