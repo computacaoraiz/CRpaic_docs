@@ -34,7 +34,7 @@ ponteiro para um caractere (:code:`char *nome;`). CRpaic resolve isso fornecendo
 uma abstração para strings, o tipo de dado :code:`string`, e uma função para
 solicitar uma string ao usuário após um prompt amigável, a função
 :code:`crpaic_get_string`. Isso permite que alunos absolutamente iniciantes
-consigam criar programas como o seguinte::
+consigam criar programas como o :file:`ola.c`, abaixo::
 
     #include <CRpaic.h>
     #include <stdio.h>
@@ -45,6 +45,16 @@ consigam criar programas como o seguinte::
         printf("Olá, %s!\n", nome);
     }
 
+A compilação é feita normalmente com, por exemplo::
+
+  $ gcc -std=c17 -Wall -Wpedantic -Werror -o ola ola.c -lCRpaic
+  
+Ao ser executado na linha de comando, o programa resulta em::
+
+  $ ./ola
+  Informe seu nome: Abrantes
+  Olá, Abrantes!
+
 A variável :code:`nome` no código acima é do tipo :code:`string`, mas esse tipo
 é, na verdade, um alias para um ponteiro para um caractere. A função
 :code:`crpaic_get_string` exibe um prompt para o usuário, obtém a string
@@ -52,13 +62,13 @@ informada na linha de comando, aloca memória na *heap*, coloca a string nessa
 área de memória e retorna o ponteiro de acesso à string. Ao final do programa
 essa área de memória é liberada e desalocada automaticamente pela biblioteca,
 evitando-se assim vazamento de memória e ponteiros pendurados. E tudo isso é
-feito de modo automática para o estudante iniciante, que trata a variável
+feito de modo automático para o estudante iniciante, que trata a variável
 :code:`nome` como se fosse um tipo primitivo qualquer da linguagem C. Quando
 esse estudante alcançar maior maturidade na linguagem o professor pode revelar o
 tipo de dado subjacente (:code:`char *`), as funções de I/O (:code:`fgetc`,
 :code:`scanf`, :code:`getc`, etc.), as funções de gerenciamento de memória
 (:code:`malloc`, :code:`free`, etc.) e funcionalidades mais avançadas da
-linguagem.
+linguagem, se necessário.
 
 Com a CRpaic é possível ensinar conceitos de computação e programação usando a
 linguagem C para estudantes realmente iniciantes (estudantes no 1º período da
