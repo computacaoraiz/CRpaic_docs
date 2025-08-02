@@ -49,14 +49,14 @@ A compilação é feita com GCC ou Clang, fazendo a vinculação com a CRpaic::
 
 .. code-block:: bash
    :emphasize-lines: 1
-                     
+   
    $ gcc -std=c17 -Wall -Wpedantic -Werror -o ola ola.c -lCRpaic
   
 Ao ser executado na linha de comando, o programa resulta em:
 
 .. code-block:: bash
    :emphasize-lines: 1
-                     
+   
    $ ./ola
    Informe seu nome: Abrantes
    Olá, Abrantes!
