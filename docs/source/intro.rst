@@ -45,13 +45,13 @@ consigam criar programas como o :file:`ola.c`, abaixo::
         printf("Olá, %s!\n", nome);
     }
 
-A compilação é feita normalmente com, por exemplo::
+A compilação é feita com GCC ou Clang, fazendo a vinculação com a CRpaic::
 
   $ gcc -std=c17 -Wall -Wpedantic -Werror -o ola ola.c -lCRpaic
   
 Ao ser executado na linha de comando, o programa resulta em::
 
-  $ ./ola
+  $ :command:./ola
   Informe seu nome: Abrantes
   Olá, Abrantes!
 
